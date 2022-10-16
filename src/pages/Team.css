@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.body
+{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bellota Text', cursive;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background: #f2f3f7;
+}
+.containers
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.containers .title{
+    position: absolute;
+    top: 0%;
+    color: #36187d;
+   font-size: 1.8rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.containers .titleE{
+    position: absolute;
+    bottom: 0%;
+    color: #1e03b6;
+    text-decoration: underline;
+   font-size: 1.8rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.containers .cards
+{
+   width: 330px;
+   height: 316px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+}
+.containers .cards .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.containers .cards .content .imgBx
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.containers .cards .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.containers .cards .content .contentBx{
+    margin-top: -1.5rem;
+}
+.containers .cards .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.containers .cards .content .contentBx h5
+{
+    margin-top: -1.5rem;
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.containers .cards .content .sci
+{
+   margin-top: -10px;
+}
+.containers .cards .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.containers .cards .content .sci a:hover
+{
+   color: #0196e3;
+}
+

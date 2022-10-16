@@ -1,0 +1,34 @@
+.card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.card-header {
+    height: 30%;
+    background-color: #5d6770;
+    color: white;
+    text-align: center;
+}
+
+.card-header p {
+    font-size: 20px;
+}
+
+.container {
+    padding: 4px 16px;
+}
+
+@media only screen and (max-width: 600px)  {
+    .card{
+        width: 90%;
+    }
+    .QrReader{
+        left: -2rem;
+        position: relative;
+        width: 120%;
+    }
+}
